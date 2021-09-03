@@ -1,0 +1,12 @@
+[
+    {
+        "id": 1,
+        "name": "Battletoads",
+        "platform": "Sega Genesis"
+    },
+    {
+        "id": 2,
+        "name": "Super Metroid",
+        "platform": "Super Nintendo"
+    }
+]

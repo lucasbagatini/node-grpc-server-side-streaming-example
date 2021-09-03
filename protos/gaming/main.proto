@@ -1,0 +1,11 @@
+syntax = "proto3";
+
+import  "./game.proto";
+
+message Void {}
+
+service GameService {
+  rpc List (Void) returns (stream Game);
+  rpc Find (GameFindRequest) returns (GameFindResponse);
+}
+
